@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/profile"
+        android:title="Profile"/>
+
+    <item android:id="@+id/connect_device"
+        android:title="Connect Device"/>
+
+    <item android:id="@+id/payments"
+        android:title="Payments"/>
+
+    <item android:id="@+id/history"
+        android:title="History"/>
+
+    <item android:id="@+id/advanced_procedure"
+        android:title="Advanced Procedure"/>
+
+    <item android:id="@+id/report_bug"
+        android:title="Report A Bug"/>
+
+    <item android:id="@+id/about_lishtot"
+        android:title="About Lishtot"/>
+
+    <item android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>

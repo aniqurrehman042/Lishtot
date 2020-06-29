@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Screen34"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <include layout="@layout/layout_topbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/padding_horizontal">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="@drawable/bg_bordered_blue"
+            android:text="     History"
+            android:drawableLeft="@drawable/icons8_historical"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/light_blue"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="@drawable/bg_bordered_blue"
+            android:text="     Map View"
+            android:drawableLeft="@drawable/icons8_map"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/light_blue"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="@drawable/bg_bordered_blue"
+            android:text="     High Resolution Testing"
+            android:drawableLeft="@drawable/icons8_test_tube"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/light_blue"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="@drawable/bg_bordered_blue"
+            android:text="     Specific Material Testing"
+            android:drawableLeft="@drawable/icons8_specific_testing"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/light_blue"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="@drawable/bg_bordered_blue"
+            android:text="     Filter Tracking"
+            android:drawableLeft="@drawable/icons8_filter_and_sort"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/light_blue"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="@drawable/bg_bordered_blue"
+            android:text="     Water Source Tracking"
+            android:drawableLeft="@drawable/icons8_water_tower"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/light_blue"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

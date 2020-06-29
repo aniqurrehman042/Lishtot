@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lishtot">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.Screen35"></activity>
+        <activity android:name=".ui.Screen34" />
+        <activity android:name=".ui.Screen30" />
+        <activity android:name=".ui.Screen27" />
+        <activity android:name=".ui.Screen25" />
+        <activity android:name=".ui.Screen23" />
+        <activity android:name=".ui.Screen21" />
+        <activity android:name=".ui.Screen16" />
+        <activity android:name=".ui.Screen15" />
+        <activity android:name=".ui.Screen14" />
+        <activity android:name=".ui.Screen13" />
+        <activity android:name=".ui.Screen12" />
+        <activity android:name=".ui.Screen11" />
+        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.Screen10">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.Screen8">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

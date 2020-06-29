@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="@dimen/_30sdp"
+    android:layout_marginVertical="@dimen/padding_horizontal"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    android:outlineSpotShadowColor="#55000000"
+    android:outlineAmbientShadowColor="#55000000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reminder"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_title"
+                android:layout_marginTop="@dimen/_20sdp" />
+
+            <ImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:src="@drawable/notification"
+                android:layout_marginTop="@dimen/_30sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your subscription to the advanced capabilities of your TestDrop Pro will end soon"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_normal"
+                android:layout_marginTop="@dimen/_20sdp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_btn"
+                android:text="SUBSCRIBE NOW"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_round_blue"
+                android:layout_marginBottom="@dimen/_20sdp"/>
+
+        </LinearLayout>
+        
+</androidx.cardview.widget.CardView>

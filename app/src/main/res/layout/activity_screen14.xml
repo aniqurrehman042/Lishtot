@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Screen14"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/padding_horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:src="@drawable/logo_splash" />
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:hint="Name"
+        android:textSize="@dimen/text_normal"
+        android:paddingBottom="@dimen/_15sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nick Name"
+        android:textSize="@dimen/text_normal"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:paddingBottom="@dimen/_15sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="@dimen/text_normal"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:paddingBottom="@dimen/_15sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Validate Email"
+        android:textSize="@dimen/text_normal"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:paddingBottom="@dimen/_15sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:textSize="@dimen/text_normal"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:paddingBottom="@dimen/_15sdp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_btn"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/bg_round_blue"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Special o er for new users only!\nSubscribe now for 12 months and get\n2 month free + 0.99$ per month (50% discount!)"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textSize="@dimen/text_normal"
+        android:textColor="@color/black"
+        android:paddingVertical="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:background="@drawable/bg_round_lightest_blue"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_15sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_sub_normal"
+            android:text="Already signed up? "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_blue"
+            android:textSize="@dimen/text_sub_normal"
+            android:text="@string/click_here_to_restore_your_account" />
+
+    </LinearLayout>
+
+</LinearLayout>

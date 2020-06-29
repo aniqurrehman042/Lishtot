@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_screen_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 8"/>
+
+        <Button
+            android:id="@+id/btn_screen_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 10"/>
+
+        <Button
+            android:id="@+id/btn_screen_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 11"/>
+
+        <Button
+            android:id="@+id/btn_screen_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 12"/>
+
+        <Button
+            android:id="@+id/btn_screen_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 13"/>
+
+        <Button
+            android:id="@+id/btn_screen_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 14"/>
+
+        <Button
+            android:id="@+id/btn_screen_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 15"/>
+
+        <Button
+            android:id="@+id/btn_screen_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 16"/>
+
+        <Button
+            android:id="@+id/btn_screen_21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 21"/>
+
+        <Button
+            android:id="@+id/btn_screen_23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 23"/>
+
+        <Button
+            android:id="@+id/btn_screen_25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 25"/>
+
+        <Button
+            android:id="@+id/btn_screen_27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 27"/>
+
+        <Button
+            android:id="@+id/btn_screen_30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 30"/>
+
+        <Button
+            android:id="@+id/btn_screen_34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 34"/>
+
+        <Button
+            android:id="@+id/btn_screen_35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_blue"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Screen 35"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Screen27"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_topbar" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/padding_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        android:outlineSpotShadowColor="#55000000"
+        android:outlineAmbientShadowColor="#55000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/padding_horizontal"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/illustraton"
+                android:layout_marginTop="@dimen/_15sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="In order to practice your skills please take a surely clean water (like mineral water) and test it."
+                android:layout_marginTop="@dimen/_30sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_super_normal"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="After finishing the test, please connect your TestDrop to the app and click next"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textSize="@dimen/text_super_normal"
+                android:textColor="@color/black"
+                android:layout_marginBottom="@dimen/_15sdp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_btn"
+        android:text="NEXT"
+        android:background="@drawable/bg_round_blue"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginHorizontal="@dimen/padding_horizontal"/>
+
+</LinearLayout>

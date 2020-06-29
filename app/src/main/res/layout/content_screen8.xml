@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/_10sdp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_80sdp">
+
+            <ImageView
+                android:id="@+id/iv_gauge"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="@dimen/_145sdp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/guage"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.github.anastr.speedviewlib.SpeedView
+                android:id="@+id/spdv_score"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@id/iv_gauge"
+                app:layout_constraintLeft_toLeftOf="@id/iv_gauge"
+                app:layout_constraintRight_toRightOf="@id/iv_gauge"
+                app:layout_constraintTop_toBottomOf="@id/iv_gauge"
+                app:sv_centerCircleColor="@color/transparent"
+                app:sv_centerCircleRadius="@dimen/_12sdp"
+                app:sv_endDegree="360"
+                app:sv_indicator="KiteIndicator"
+                app:sv_indicatorColor="@color/black"
+                app:sv_indicatorWidth="@dimen/_12sdp"
+                app:sv_markColor="@color/transparent"
+                app:sv_maxSpeed="100"
+                app:sv_minSpeed="0"
+                app:sv_speedTextSize="0sp"
+                app:sv_speedometerWidth="@dimen/_600sdp"
+                app:sv_startDegree="180"
+                app:sv_textSize="0sp"
+                app:sv_unitTextSize="0sp"
+                app:sv_withTremble="false" />
+
+            <ImageView
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/center_circle"
+                app:layout_constraintBottom_toBottomOf="@id/iv_gauge"
+                app:layout_constraintLeft_toLeftOf="@id/iv_gauge"
+                app:layout_constraintRight_toRightOf="@id/iv_gauge"
+                app:layout_constraintTop_toBottomOf="@id/iv_gauge" />
+
+            <LinearLayout
+                android:id="@+id/ll_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_50sdp"
+                android:gravity="center_horizontal"
+                app:layout_constraintBottom_toBottomOf="@id/spdv_score"
+                app:layout_constraintLeft_toLeftOf="@id/spdv_score"
+                app:layout_constraintRight_toRightOf="@id/spdv_score">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Score : "
+                    android:textColor="#cacaca"
+                    android:textSize="@dimen/_28sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="67"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_28sdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_test_accuracy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center_horizontal"
+                app:layout_constraintTop_toBottomOf="@id/ll_score">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test Accuracy: "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="88%"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@id/ll_test_accuracy">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_5sdp">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_38sdp"
+                        android:layout_weight="0.48"
+                        android:background="@drawable/bg_bordered_blue"
+                        android:text="    Camera"
+                        android:drawableLeft="@drawable/icons8_camera"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/light_blue" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.04" />
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_38sdp"
+                        android:layout_weight="0.48"
+                        android:background="@drawable/bg_bordered_blue"
+                        android:text="    Comment"
+                        android:drawableLeft="@drawable/icons8_comments"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/light_blue" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_5sdp">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_38sdp"
+                        android:drawableLeft="@drawable/icons8_water_graph"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:layout_weight="0.48"
+                        android:background="@drawable/bg_bordered_blue"
+                        android:text="    Water Graph"
+                        android:textAllCaps="false"
+                        android:textColor="@color/light_blue" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.04" />
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_38sdp"
+                        android:drawableLeft="@drawable/icons8_advance"
+                        android:layout_weight="0.48"
+                        android:background="@drawable/bg_bordered_blue"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:text="    Advance Tests"
+                        android:textAllCaps="false"
+                        android:textColor="@color/light_blue" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginHorizontal="@dimen/_5sdp">
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="@dimen/_140sdp"
+                        android:layout_height="@dimen/_38sdp"
+                        android:background="@drawable/bg_bordered_blue"
+                        android:drawableLeft="@drawable/icons8_share"
+                        android:paddingHorizontal="@dimen/_10sdp"
+                        android:text="     Share"
+                        android:textAllCaps="false"
+                        android:textColor="@color/light_blue" />
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_btn"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:background="@drawable/bg_round_blue"
+                    android:text="ADVANCED PROCEDURES"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
